@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - main
-    # paths:
-    #   - 'packages/container/**'
+    paths:
+      - 'packages/container/**'
+      - '.github/**'
 
 defaults:
   run:
